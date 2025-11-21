@@ -1,0 +1,75 @@
+.sidebarcontent{
+    display: grid;
+    background-color: white;
+    height: 100vh;
+    grid-template-rows:0.3fr 1fr 1fr 1fr ;
+    gap: 30px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 69px rgb(215, 215, 215);
+
+}
+
+.sidebarlinkcontent{
+    display: flex;
+    gap: 5px;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.sidebardivlinkcontent{
+    display: grid;
+    gap: 10px;
+}
+.sidebarlinkcontent i{
+    color: gray;
+    /* font-size: 10px; */
+}
+.sidebarlinkcontent p{
+    color: gray;
+
+}
+
+.sidebarfirstdiv{
+    display: grid;
+    align-items: center;
+    padding-left: 10px;
+}
+.sidebarseconddivHeader,.sidebarthirddivHeader{
+    padding-left: 10px;
+}
+
+.sidebarseconddivBody, .sidebarthirddivBody, .sidebarfourthdivBody{
+    display: grid;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.sidebarcontent h2{
+    font-family: Poppins;
+   
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#active{
+    background-color: #feaf1b;
+    padding: 7px;
+    border-radius: 10px;
+}
+#active p{
+    color: white;
+
+}
+#active i{
+    color: white;
+}
+
+@media (max-width:885px) {
+    .sidebarcontent{display: none;}
+}
+@media (min-width:885px){
+    .sidebarlinkcontent{
+   
+    font-size: 16px;
+    }
+}

@@ -1,0 +1,17 @@
+/* Logo styles */
+
+.Logocontent{
+  display: flex;
+  align-items: center;
+
+}
+.LogoName{
+  color: rgb(254, 175, 27);
+  font-family: Poppins;
+  font-size: 20px;
+}
+.Logo{
+  width: 20px;
+  height: 20px;
+  
+}

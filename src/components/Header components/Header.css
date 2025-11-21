@@ -1,0 +1,105 @@
+.Headercontent {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0.1px 0.1px 19px rgb(215, 215, 215);
+    /* top: 0;
+    position: sticky; */
+
+}
+
+.inputcont {
+    position: relative;
+}
+
+input {
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+}
+
+input::placeholde {
+    font-size: 12px;
+}
+
+.searchicon {
+    position: absolute;
+    top: 11px;
+    left: 2%;
+}
+
+.HeadersecondDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 20px;
+    height: 100%;
+    padding-right: 10px;
+
+}
+
+.HeaderprofileSection {
+    display: flex;
+    column-gap: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.Dp {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.HeaderprofileTxt {
+    display: grid;
+    align-items: center;
+}
+
+.username {
+    font-size: 11px;
+    font-family: Poppins;
+}
+
+.useremail {
+    font-size: 10px;
+    font-family: Poppins;
+    color: gray;
+}
+
+@media (max-width:855px) {
+ 
+
+}
+
+@media (max-width:443px) {
+   
+    input {
+        width: 100%;
+    }
+  
+
+    .HeadersecondDiv i {
+               display: none;
+
+    }
+    .HeaderprofileSection{
+     border:none;
+    }
+    .Dp{
+        border-radius: 50px;
+        border:1px solid orange;
+    }
+    .HeaderprofileSection i{
+        display: none;
+
+    }
+    .username, .useremail{
+        display: none;
+    }
+}
