@@ -1,5 +1,5 @@
 import Searchbar from './Searchbar'
-import Dp from '../../assets/dp.jpg'
+import Dp from '../../../src/assets/dp.jpg'
 export default function Header() {
     return (
         <>
